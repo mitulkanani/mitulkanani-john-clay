@@ -1,0 +1,68 @@
+p{
+  margin: 0 !important;
+}
+
+.main{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-main{
+  padding: 30px;
+  margin: 0px 20px;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.btn_A{
+  background-color: #46139f;
+}
+
+.btn_B{
+  background-color: #ff7f50;
+}
+
+.btn_text{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.modal_body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_button{
+  padding: 10px 20px;
+  border-width: 0px;
+  border-color: #46139f;
+  margin-right: 20px;
+}
+
+.modal_button p{
+  color: #ffffff;
+}
+
+.contacts_list{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #46139f;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.contact_name{
+  margin-bottom: 10px;
+}
+
+.checkbox{
+  margin-left: 30px;
+}
